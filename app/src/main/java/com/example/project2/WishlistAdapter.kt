@@ -6,23 +6,20 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class WishlistAdapter(private val items: List<WishlistItem>) : RecyclerView.Adapter<WishlistAdapter.ViewHolder>() {
+class WishAdapter(private val wishList: List<WishItem>) : RecyclerView.Adapter<WishAdapter.WishViewHolder>() {
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val name: TextView = itemView.findViewById(R.id.item_name)
-        val description: TextView = itemView.findViewById(R.id.item_description)
+    class WishViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val wishTextView: TextView = itemView.findViewById(R.id.wishTextView)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_wishlist, parent, false)
-        return ViewHolder(view)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WishViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_wish, parent, false)
+        return WishViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item = items[position]
-        holder.name.text = item.name
-        holder.description.text = item.description
+    override fun onBindViewHolder(holder: WishViewHolder, position: Int) {
+        holder.wishTextView.text = wishList[position].wish
     }
 
-    override fun getItemCount() = items.size
+    override fun getItemCount() = wishList.size
 }
