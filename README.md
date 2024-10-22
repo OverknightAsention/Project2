@@ -25,17 +25,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<div>
-    <a href="https://www.loom.com/share/d0d1db678e654c72a6caaacf187b3f3d">
-      <p>App Project Walkthrough 📱 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/d0d1db678e654c72a6caaacf187b3f3d">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d0d1db678e654c72a6caaacf187b3f3d-9d62e7cf39da1f8e-full-play.gif">
-    </a>
-  </div>
-## Notes
-
-A time when ruuning my code the app would immediately close.
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe src="https://us05web.zoom.us/clips/embed/aIo_E3EIcHocFxpj05MnCMvzni3v24OTas0Qzt5cgY1pFhZ37af1APUrWDo5xy8WhR4JqjGU5A1yaYSfdaUjaxmt-A.-9XwId9lW3j4RocP" frameborder="0" allowfullscreen="allowfullscreen" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; "></iframe></div>
 
 ## License
 
