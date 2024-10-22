@@ -26,13 +26,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <div>
-    <a href="https://www.loom.com/share/5a5f639226c7407ca0b8625aa46adfb3">
-    </a>
-    <a href="https://www.loom.com/share/5a5f639226c7407ca0b8625aa46adfb3">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5a5f639226c7407ca0b8625aa46adfb3-f11890f904221bbd-full-play.gif">
+    <a href="https://www.loom.com/share/d0d1db678e654c72a6caaacf187b3f3d">
+     
+
+    <a href="https://www.loom.com/share/d0d1db678e654c72a6caaacf187b3f3d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d0d1db678e654c72a6caaacf187b3f3d-9d62e7cf39da1f8e-full-play.gif">
     </a>
   </div>
-
 ## Notes
 
 A time when ruuning my code the app would immediately close.
